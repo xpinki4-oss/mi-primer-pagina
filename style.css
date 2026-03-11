@@ -23,3 +23,77 @@ body{
 .menu li:hover{
     background:#ff6600;
 }
+/* Estilo general */
+body{
+    margin:0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg,#f5f7fa,#c3cfe2);
+    text-align:center;
+}
+
+/* Menú */
+.menu{
+    list-style:none;
+    background:#2c3e50;
+    padding:15px;
+    margin:0;
+    display:flex;
+    justify-content:center;
+    gap:40px;
+}
+
+.menu li{
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.menu li:hover{
+    color:#00d4ff;
+    transform:scale(1.1);
+}
+
+/* Sección bienvenida */
+#bienvenida{
+    padding:50px 20px;
+}
+
+#bienvenida img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:5px solid #2c3e50;
+    object-fit:cover;
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Nombre */
+#bienvenida h1{
+    font-size:40px;
+    margin-top:20px;
+    color:#2c3e50;
+}
+
+/* Profesión */
+#bienvenida h2{
+    font-size:22px;
+    color:#555;
+}
+
+/* Biografía */
+#bio{
+    background:white;
+    width:60%;
+    margin:auto;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+    margin-bottom:40px;
+}
+
+#bio p{
+    font-size:18px;
+    color:#444;
+    line-height:1.6;
+}
